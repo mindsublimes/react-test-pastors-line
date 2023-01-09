@@ -1,0 +1,10 @@
+.primary-btn {
+  color: #46139f;
+  border-radius: 0 !important;
+  width: 40% !important;
+  cursor: pointer;
+
+  &:focus {
+    box-shadow: none !important;
+  }
+}

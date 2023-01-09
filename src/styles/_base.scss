@@ -1,0 +1,15 @@
+// Define any common css which we can use throughout the app
+html,
+body,
+#root {
+  height: 100%;
+  scroll-behavior: smooth;
+  font-size: 12px;
+}
+
+a {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
